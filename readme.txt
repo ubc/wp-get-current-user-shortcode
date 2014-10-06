@@ -5,7 +5,7 @@ Requires at least: 3.1.3
 
 == Description ==
 
-The plugin allows to display the current users name and avatar
+The plugin uses shortcodes to display the current users name and avatar.
 
 == Installation ==
 

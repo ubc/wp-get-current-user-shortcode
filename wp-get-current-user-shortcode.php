@@ -21,6 +21,8 @@ function wp_get_current_user_func( $atts ) {
 add_shortcode( 'wp_get_current_user_avatar' , 'wp_get_current_user_avatar_func' );
 
 function wp_get_current_user_avatar_func( $atts ) {
+	$get_email = wp_get_current_user();
+	$current_email = $get_email->user_email;
 	$a = shortcode_atts( array(
         'size' => '32',
     ), $atts );
@@ -31,5 +33,5 @@ function wp_get_current_user_avatar_func( $atts ) {
 	    	$size = 32;
 	   	endif;
 
-	return get_avatar( get_the_author_meta( 'ID' ), $size, '', 'User Avatar' );
+	return get_avatar( $current_email, $size);
 }
