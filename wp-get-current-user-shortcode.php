@@ -4,7 +4,7 @@ Plugin Name: [wp_get_current_user] - a shortcode to get the current user
 Plugin URI: http://ctlt.ubc.ca
 Description: A shortcode to get the current username
 Author: Michael Ha
-Version: 2
+Version: 2.0.0
 */
 
 /* wp_get_current_user_avatar attributes size= 32-150  */
