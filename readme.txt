@@ -1,5 +1,5 @@
 === wp-get-current-user-shortcode ===
-Contributors: Michael Ha, David Brabbins
+Contributors: Miguel QUezada
 Tags: user, avatar
 Requires at least: 3.1.3
 
